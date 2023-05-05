@@ -1,0 +1,102 @@
+div.container{
+    border-color: rgb(69, 9, 172);
+    border-radius: 1px;
+    border-style:double
+
+}
+
+#parent-container{
+    position: relative;
+    top: 30%;
+    left: 30%; 
+    height: 800px;
+    width: 500px; 
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    margin: auto; 
+    overflow-x: hidden;
+
+}
+
+#joke-container{
+   height: 40%;
+   width: 60%;  
+   background-color: white;
+   margin: 5% auto 10% auto; 
+   overflow-y: auto;
+   border-width: 3px;
+   border-style: solid;
+
+
+   
+
+}
+h1{
+    text-align: center; 
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color:crimson;
+    font-size: 1.8em;
+    
+}
+
+body{
+    height: 400px;
+    width: 400px;
+    background-image: linear-gradient(to right,rgb(45, 156, 190), rgba(229, 110, 181, 0.798));
+}
+
+#new-joke-button{
+    height: 2.8em; 
+    width: 40%; 
+    text-align: center; 
+    font-size: 50%;
+    margin: 0px auto 0px auto; 
+    background-color: whitesmoke;
+    border-color: violet;
+
+}
+
+
+#toggle-menu{
+    height: 2em; 
+    width: 50%; 
+    font-size: 75%;
+    margin: 30px auto 0px auto; 
+    background-color: whitesmoke;
+    border-color: violet; 
+}
+
+#toggle-menu:hover{
+    background-color: plum;
+    border-color: white;
+}
+
+#new-joke-button:hover{
+    background-color: plum;
+    border-color: white;
+}
+
+#categories-check-box{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    border-style: solid;
+    border-color: violet;
+    border-width: 1px;
+    margin: 20px auto 20px auto;
+    height: 30%; 
+    width: 50%; 
+    visibility: 'hidden';
+    background: rgba(226, 255, 255, 0.4);  
+
+}
+
+label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: crimson;
+
+
+
+}
+
